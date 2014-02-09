@@ -1,0 +1,464 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-size:16px;
+	font-family: Helvetica;
+	color:#444444;
+	background-color: white;
+}
+
+#images .anImg{
+	width:300px;
+	margin: 20px;
+}
+
+#tagMaker{
+    color: #444444;
+    font-size: 1.2em;
+    height: 30px;
+    width: 145px;
+}
+
+#tag_maker_holder{
+	width:153px;
+}
+
+#tag_maker_holder h3{
+	text-align: center;
+}
+
+#images,
+#tag_maker_holder{
+	margin:auto;
+	margin-bottom:10px;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+ul li{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+#header_inner h2.title{
+    color: white;
+    float: left;
+    font-size: 1.8em;
+    margin: 0;
+    padding-top: 25px;
+    text-shadow: 1px 1px black;
+}
+
+#content_inner,
+#header_inner{
+	width:980px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:auto;
+}
+
+#footer{
+    float: left;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#footer_inner{
+    background-color: white;
+    border: 1px solid #DDDDDD;
+}
+
+#sidebar_right{
+	position: fixed;
+	top:40px;
+}
+
+#sidebar_right li{
+	margin-bottom: 15px;
+}
+
+#sidebar_right>*{
+    float: left;
+    padding-top: 20px;
+    width: 210px;
+    margin-bottom: 5px;
+}
+
+#content_area{
+
+    margin-bottom: 10px;
+    min-height: 420px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 760px;
+	position: relative;
+	left: 220px;
+}
+
+#content_inner{
+    background-image: url("images/inner_grad3.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.intro_text{
+	padding:10px;
+}
+
+.articleList .returnedData{
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;    
+    -moz-border-radius: 4px 4px 4px 4px;    
+	padding:10px;
+	width:325px;
+}
+
+#images{
+	margin-bottom: 10px;
+	min-height: 370px;
+}
+
+.articleList .returnedData,
+#images .returnedData{
+	float: left;
+}
+
+.articleList .returnedData{
+	margin: 5px;
+	min-height: 170px;
+}
+
+#navigationBlock>*{
+	padding:5px;
+}
+
+label.instruction,
+.readmePage #sidebar_right > * label{
+	font-size:0.65em;
+	color:#565656;
+	font-style: italic;
+	margin: 10px;
+	display: block;
+
+}
+
+#content_area{
+	min-height: 1100px;
+}
+
+#nav >*{
+	display: inline;
+	padding:5px;
+	text-shadow: -1px 0px 1px #444444; 
+}
+
+#nav >* a{
+	color:#444444;
+    text-decoration: underline;
+}
+
+#nav {
+	float: right;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.dir{
+	color:#f96839;
+}
+
+#installer_steps li,
+#table_adder li,
+#db_adder li{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+	padding:10px;
+	width:325px;
+	float: left;
+	height: 95px;
+	background-color: #fafafa;
+}
+
+#installer_steps li input,
+#table_adder li input{
+	margin-top: 15px;
+}
+
+.red{
+	color:#da0e0e;
+}
+
+p .tablePlus,
+p .tableMinus{
+	width:15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#table_adder .tableMinus,
+#db_adder .dbMinus{
+	width:25px;
+	float:right;
+}
+
+p .tablePlus,
+p .dbPlus{
+	background: none;
+	border: none;
+	margin-left:  4px;
+	padding: 0px;
+}
+
+.large .tablePlus,
+.large .dbPlus{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+	padding:10px;
+	margin-left: 10px;
+	background-color: #fafafa;
+	width: 35px;
+}
+
+a:link,
+a:hover,
+a:target,
+a:active,
+a:visited{
+    color: #74A968;
+}
+
+div.article_intro{
+	padding-top:0px;
+}
+
+#installerForm p{
+	display:block;
+}
+
+#installer_steps{
+	float: left;
+	
+}
+
+#table_adder,#db_adder{
+	float:left;
+	margin-bottom: 20px;
+}
+
+.installer_closingText{
+	margin-top:125px;
+}
+
+#installButton{
+	border:1px solid #DDDDDD;
+	color:#F96839;
+	border-radius: 4px 4px 4px 4px;
+	padding:10px;
+	background-color: #FAFAFA;
+	float:right;
+	margin-bottom: 10px;	
+	font-size: 1.6em;
+}
+
+#installerForm li p{
+	font-size: 0.9em;
+}
+
+#installerForm li span{
+    color: #74A968;
+    display: block;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.code{
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    color: #74A968;
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+h4{
+	font-size:1.2em;
+}
+
+.readmePage #sidebar_right>*{
+	padding:5px;
+	position: relative;
+	right: 10px;
+}
+
+
+.readmePage #sidebar_right span{
+	font-size: 0.75em;
+}
+
+.installerPage #content_area{
+	left:0px;
+	margin: auto;
+}
+
+#sidebar_right.noInstall{
+	display: none;
+}
+
+#content.noInstall #content_area{
+	width: 1000px;
+	margin: auto;
+	left: 0px;
+}
+
+#product_description{
+	padding-top: 30px;
+}
+
+#product_description h3{
+    font-size: 1.4em;
+    margin-bottom: 25px;
+}
+
+#product_description ul{
+	margin-left: 20px;
+}
+
+#product_description ul li{
+	margin-bottom: 31px;
+	list-style: circle;
+}
+
+#top_content{
+	height: 380px;
+}
+
+#top_content #product_description,
+#product_description{
+	text-shadow: -2px 1px 4px #616161;
+}
+
+#top_content>*{
+	float: left;
+}
+
+.articleList .returnedData {
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+.noInstall .intro_text{
+	margin-top:30px;
+}
+
+.noInstall #product_description{
+    margin: auto;
+ 	position: relative;
+ 	left: 40px;
+}
+
+.noInstall #dummyimages{
+    float: left;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+/*GREEN*/
+.articleList .greenTheme {
+	background-image: url("images/green002.png");
+	background-repeat: repeat-x;
+}
+
+.articleList .greenTheme li h3{
+	color:white;
+	text-align: center;
+	text-shadow: -2px 2px 2px #444444;
+}
+
+.articleList .greenTheme>li {
+	padding:10px;
+}
+
+/*Dark Theme*/
+.articleList .darkTheme {	
+    background-image: url("images/dark002.png");
+    background-repeat: repeat-x;
+}
+
+
+.articleList .darkTheme h3 {	
+	color:#e8e8e8;
+	text-align: center;
+	padding-top: 8px;
+	text-shadow: -2px 2px 2px #444444;
+}
+
+/*Blue Theme*/
+.articleList .blueTheme {	
+    background-image: url("images/blue001.png");
+    background-repeat: repeat-x;
+
+}
+
+
+.articleList .blueTheme h3 {	
+	color:white;
+	text-align: center;
+	padding-top: 8px;
+	text-shadow: -2px 2px 2px #444444;
+}
+
+/*Pastel Theme*/
+.articleList .pastelTheme {	
+    background-image: url("images/pastelBlue001.png");
+    background-repeat: repeat-x;
+
+}
+
+.articleList .pastelTheme h3 {	
+	color:white;
+	text-align: center;
+	padding-top: 8px;
+	text-shadow: -2px 2px 2px #444444;
+}
+
+.installerPage .intro_text{
+	float:none;
+}
+
+.installerPage #images{
+	float: left;
+	min-height: 2px;
+}
+
+#sqlSettingsHead{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dbAdderText{
+	float: left;
+}
+
+.dbAdderTextHead{
+	float: left;
+}
+.installer_introText{
+	margin-top: 20px;
+	font-size: 1.1em;
+}

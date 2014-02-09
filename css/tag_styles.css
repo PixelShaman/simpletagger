@@ -1,0 +1,248 @@
+.tagListItem , 
+.itemTag{
+	font-size:16px;
+	font-family: Helvetica;
+	min-width: 50px;
+}
+
+#tags{
+	margin-top: 15px;
+	position: relative;
+    right: 10px;
+    width: 175px;
+}
+
+#dummyTags .tagListItem{
+	float:none;
+	width:60px;
+}
+
+#images .itemTags{
+	padding-left:20px;
+}
+
+
+.tagListItem>*,
+.itemTags li>*{
+	padding:2px;
+}
+
+.itemTags li{
+	float:left;
+}
+
+
+.keywordHandle{
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+/*Black Arrow tags*/
+
+.darkTheme #tagList li,
+.darkTheme .tagListItem , 
+.darkTheme .itemTag{
+    background-color: #4E4E4E;
+    background-image: url("images/blackGrad.png");
+    color: white;
+    float: left;
+    font-size: 0.9em;
+    padding-top:  5px;
+    padding-bottom:  5px;
+}
+
+.darkTheme .tagListItem .keywordHeader{
+    background-image: url("images/darkArrowUp_small.png");
+    background-repeat: no-repeat;
+}
+
+.darkTheme .tagListItem .keyword,
+.darkTheme .itemTag .keyword{
+    background-image: url("images/darkArrowUp.png");
+    background-position: 10px 2px;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+
+.darkTheme .itemTag .keywordHeader,
+.darkTheme .tagListItem .keywordHeader{
+	padding: 0px;
+}
+.darkTheme .itemTag .keywordHandle,
+.darkTheme .tagListItem .keywordHandle{
+padding-left: 2px;
+    padding-right: 6px;
+}
+
+.darkTheme .itemTag .keywordHandle img,
+.darkTheme .tagListItem .keywordHandle img{
+}
+
+/*GREEN*/
+
+.greenTheme #tagList li,
+.greenTheme .tagListItem , 
+.greenTheme .itemTag{
+
+    color: white;
+    float: left;
+    font-size: 0.9em;
+    padding-top:  3px;
+    padding-bottom:  3px;
+}
+
+.greenTheme .tagListItem .keywordHeader{
+
+    background-repeat: no-repeat;
+}
+
+.greenTheme .tagListItem,
+.greenTheme .itemTag
+{
+    background-image: url("images/greenGradient.png");
+    border-radius:3px;
+    border: 1px solid #446223;
+    text-shadow: 2px 2px 2px #446223;
+    box-shadow: -2px 2px 2px #444444;
+}
+.greenTheme .tagListItem .keyword,
+.greenTheme .itemTag .keyword{
+
+    background-repeat: repeat-x;
+    
+
+}
+.greenTheme .itemTag .keywordHeader,
+.greenTheme .tagListItem .keywordHeader{
+padding: 0px;
+}
+
+.greenTheme .itemTag .keywordHandle,
+.greenTheme .tagListItem .keywordHandle{
+ 
+	background-repeat: no-repeat;
+	padding-right: 6px;
+}
+
+
+/*Blue*/
+
+.blueTheme #tagList li,
+.blueTheme .tagListItem , 
+.blueTheme .itemTag{
+    background-repeat: repeat-x;
+    color: white;
+    float: left;
+    font-size: 0.9em;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #4769ba;
+}
+
+.blueTheme  .tagListItem .keywordHeader{
+
+    background-repeat: no-repeat;
+}
+
+.blueTheme .tagListItem,
+.blueTheme .itemTag
+{
+    background-image: url("images/blueGradient.png");
+    border-radius:5px;
+    border: 1px solid #182f69;
+}
+.blueTheme .tagListItem .keyword,
+.blueTheme .itemTag .keyword{
+
+    background-repeat: repeat-x;
+    
+
+}
+.blueTheme .itemTag .keywordHeader,
+.blueTheme .tagListItem .keywordHeader{
+padding: 0px;
+}
+
+.blueTheme .itemTag .keywordHandle,
+.blueTheme .tagListItem .keywordHandle{
+ 
+   background-repeat: no-repeat;
+
+}
+
+.blueTheme .itemTag .keywordHandle img,
+.blueTheme .tagListItem .keywordHandle img{
+	visibility: hidden;
+}
+
+.blueTheme .itemTag .keywordHandle,
+.blueTheme .tagListItem .keywordHandle{
+    background-image: url("images/neLight.png");
+    background-position: 2px 6px;
+    background-repeat: no-repeat;
+    padding: 4px;
+}
+
+/*PASTELS*/
+
+.pastelTheme #tagList li,
+.pastelTheme .tagListItem , 
+.pastelTheme .itemTag{
+
+    color: #444444;
+    float: left;
+    font-size: 0.9em;
+    padding-top:  3px;
+    padding-bottom:  3px;
+}
+
+.pastelTheme .tagListItem .keywordHeader{
+
+    background-repeat: no-repeat;
+}
+
+.pastelGreen{
+	background-color: #6bcaa0;
+}
+.pastelBlue{
+	background-color: #23bdd9;
+}
+.pastelYellow{
+	background-color: #e3e34f;
+}
+.pastelPink{
+	background-color: #dba3d7;
+}
+
+.pastelTheme .tagListItem,
+.pastelTheme .itemTag
+{
+    border-radius:2px;
+	font-weight: bold;
+}
+
+.pastelTheme .tagListItem .keyword,
+.pastelTheme .itemTag .keyword{
+    background-repeat: repeat-x;
+}
+
+.pastelTheme .itemTag .keywordHeader,
+.pastelTheme .tagListItem .keywordHeader{
+	padding: 0px;
+}
+
+.pastelTheme .itemTag .keywordHandle,
+.pastelTheme .tagListItem .keywordHandle{
+    background-image: url("images/nedark.png");
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    padding: 4px;
+}
+
+.pastelTheme .itemTag .keywordHandle img,
+.pastelTheme .tagListItem .keywordHandle img{
+	visibility: hidden;
+}
+
+
+
